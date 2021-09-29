@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="8dp">
+
+
+    <TextView
+        android:id="@+id/txtEscolha1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:layout_marginEnd="16dp"
+        android:text="Disponíveis para doação!\n Combine a entrega diretamente com o produtor."
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp"
+        android:fontFamily="serif"
+        android:textAlignment="center"
+        android:textColor="#8CC047"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+
+    <ScrollView
+        android:layout_width="390dp"
+        android:layout_height="600dp"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="2dp"
+        android:layout_margin="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtEscolha1"
+        android:background="@drawable/customization">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <Button
+                android:id="@+id/abobora"
+                android:layout_width="300dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:text="Abóbora"
+                android:background="@drawable/btn_customization"
+                android:layout_margin="8dp"/>
+
+            <Button
+                android:id="@+id/acelga"
+                android:layout_width="300dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:text="Acelga"
+                android:background="@drawable/btn_customization"
+                android:layout_margin="8dp"/>
+
+            <Button
+                android:id="@+id/agriao"
+                android:layout_width="300dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:text="Agrião"
+                android:background="@drawable/btn_customization"
+                android:layout_margin="8dp"/>
+
+            <Button
+                android:id="@+id/alcachofra"
+                android:layout_width="300dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:text="Alcachofra"
+                android:background="@drawable/btn_customization"
+                android:layout_margin="8dp"/>
+
+            <Button
+                android:id="@+id/alface"
+                android:layout_width="300dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:text="Alface"
+                android:background="@drawable/btn_customization"
+                android:layout_margin="8dp"/>
+
+            <Button
+                android:id="@+id/almeirao"
+                android:layout_width="300dp"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content"
+                android:text="Almeirão"
+                android:background="@drawable/btn_customization"
+                android:layout_margin="8dp"/>
+
+            <Button
+                android:id="@+id/aspargo"
+                android:layout_width="300dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:text="Aspargo"
+                android:background="@drawable/btn_customization"
+                android:layout_margin="8dp"/>
+
+            <Button
+                android:id="@+id/batatas"
+                android:layout_width="300dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:text="Batatas"
+                android:background="@drawable/btn_customization"
+                android:layout_margin="8dp"/>
+
+            <Button
+                android:id="@+id/berinjela"
+                android:layout_width="300dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:text="Berinjela"
+                android:background="@drawable/btn_customization"
+                android:layout_margin="8dp"/>
+
+            <Button
+                android:id="@+id/brocolis"
+                android:layout_width="300dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:text="Brócolis"
+                android:background="@drawable/btn_customization"
+                android:layout_margin="8dp"/>
+
+            <Button
+                android:id="@+id/brotos"
+                android:layout_width="300dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:text="Brotos em geral"
+                android:background="@drawable/btn_customization"
+                android:layout_margin="8dp"/>
+
+            <Button
+                android:id="@+id/cara"
+                android:layout_width="300dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:text="Cará"
+                android:background="@drawable/btn_customization"
+                android:layout_margin="8dp"/>
+
+            <Button
+                android:id="@+id/cebola"
+                android:layout_width="300dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:text="Cebola"
+                android:background="@drawable/btn_customization"
+                android:layout_margin="8dp"/>
+
+            <Button
+                android:id="@+id/chicoria"
+                android:layout_width="300dp"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content"
+                android:text="Chicória"
+                android:background="@drawable/btn_customization"
+                android:layout_margin="8dp"/>
+
+            <Button
+                android:id="@+id/chuchu"
+                android:layout_width="300dp"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content"
+                android:text="Chuchu"
+                android:background="@drawable/btn_customization"
+                android:layout_margin="8dp"/>
+
+            <Button
+                android:id="@+id/couve"
+                android:layout_width="300dp"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content"
+                android:text="Couve"
+                android:background="@drawable/btn_customization"
+                android:layout_margin="8dp"/>
+
+            <Button
+                android:id="@+id/couveFlor"
+                android:layout_width="300dp"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content"
+                android:text="Couve Flor"
+                android:background="@drawable/btn_customization"
+                android:layout_margin="8dp"/>
+
+            <Button
+                android:id="@+id/couveBruxelas"
+                android:layout_width="300dp"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content"
+                android:text="Couve de Bruxelas"
+                android:background="@drawable/btn_customization"
+                android:layout_margin="8dp"/>
+
+            <Button
+                android:id="@+id/espinafre"
+                android:layout_width="300dp"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content"
+                android:text="Espinafre"
+                android:background="@drawable/btn_customization"
+                android:layout_margin="8dp"/>
+
+            <Button
+                android:id="@+id/jilo"
+                android:layout_width="300dp"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content"
+                android:text="Jiló"
+                android:background="@drawable/btn_customization"
+                android:layout_margin="8dp"/>
+
+            <Button
+                android:id="@+id/lentilha"
+                android:layout_width="300dp"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content"
+                android:text="Lentilha"
+                android:background="@drawable/btn_customization"
+                android:layout_margin="8dp"/>
+
+            <Button
+                android:id="@+id/mandioca"
+                android:layout_width="300dp"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content"
+                android:text="Mandioca"
+                android:background="@drawable/btn_customization"
+                android:layout_margin="8dp"/>
+
+            <Button
+                android:id="@+id/milhoVerde"
+                android:layout_width="300dp"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content"
+                android:text="milhoVerde"
+                android:background="@drawable/btn_customization"
+                android:layout_margin="8dp"/>
+
+            <Button
+                android:id="@+id/nabo"
+                android:layout_width="300dp"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content"
+                android:text="Nabo"
+                android:background="@drawable/btn_customization"
+                android:layout_margin="8dp"/>
+
+            <Button
+                android:id="@+id/repolho"
+                android:layout_width="300dp"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content"
+                android:text="Repolho"
+                android:background="@drawable/btn_customization"
+                android:layout_margin="8dp"/>
+
+            <Button
+                android:id="@+id/vagem"
+                android:layout_width="300dp"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content"
+                android:text="Vagem"
+                android:background="@drawable/btn_customization"
+                android:layout_margin="8dp"/>
+
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="botao teste" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

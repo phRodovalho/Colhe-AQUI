@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:text="Gerenciar Doações!"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp"
+        android:fontFamily="serif"
+        android:textAlignment="center"
+        android:textColor="#8CC047"
+        android:textSize="24sp"
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/btndoar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:background="@drawable/btn_customization"
+        android:text="Cadastrar" />
+
+
+    <Button
+        android:id="@+id/btnAlterar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:background="@color/colorAccent"
+        android:text="Alterar"
+        android:enabled="false"/>
+
+    <Button
+        android:id="@+id/btnApagar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="0dp"
+        android:background="@color/red"
+        android:text="Apagar"
+        android:enabled="false"/>
+
+
+    <Button
+        android:id="@+id/btnMostrar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:background="@color/colorPrimary"
+        android:text="Mostrar todos cadastros"
+       />
+
+</LinearLayout>
